@@ -1,0 +1,132 @@
+.cover-container {
+    margin: 2rem 4rem 0 4rem;
+}
+
+.cover-name h1 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cover-logo {
+    width: 28px;
+    height: 28px;
+}
+
+.cover-language p {
+    color: var(--pms-black-7);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cover-info {
+    margin: 0 2rem 2rem 2rem;
+}
+
+.cover-text h3 {
+    color: #2F281E;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+
+    margin-top: 2rem;
+}
+
+.cover-text p {
+    color: #544837;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+/* .cover-img {
+    width: 60%;
+} */
+
+.cover-img img {
+    /* width: 100%; */
+    width: 468px;
+    height: 468px;
+    mix-blend-mode: hard-light;
+}
+
+.cover-button {
+    /* Typography */
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    /* Container */
+    border-radius: 4px;
+    background: var(--primary, #3A5AFF);
+    outline: none;
+    border-color: transparent;
+    width: 50%;
+    padding: 0.75rem 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .cover-img img {
+        width: 420px;
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cover-container {
+        padding-bottom: 4rem;
+    }
+
+    .cover-img {
+        display: none;
+    }
+
+    .cover-text h3 {
+        margin-top: 4rem;
+    }
+    
+    .cover-info {
+        margin: 0 0rem 0rem 0rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .cover-container {
+        margin: 2rem 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cover-name h1 {
+        font-size: 20px;
+    }
+
+    .cover-logo {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .cover-text h3 {
+        color: #2F281E;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 58px;
+    
+        margin-top: 2rem;
+    }
+
+    .cover-button {
+        width: 80%;
+    }
+}
