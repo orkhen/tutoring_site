@@ -13,7 +13,7 @@ const MainPage = () => {
     <div className='main-page'>
       <Cover />
       <Benefits />
-      {/* <About /> */}
+      <About />
     </div>
   )
 }
