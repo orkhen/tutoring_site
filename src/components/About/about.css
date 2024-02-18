@@ -23,6 +23,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .about-container {
+        margin: 2rem 2rem 0 2rem;
+    }
+
     .about-blocks {
         display: flex;
         flex-direction: column;
