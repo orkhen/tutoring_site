@@ -7,6 +7,7 @@ import Cover from '../../components/Cover/Cover'
 import './mainPage.css';
 import Benefits from '../../components/Benefits/Benefits';
 import About from '../../components/About/About';
+import Projects from '../../components/Projects/Projects';
 
 const MainPage = () => {
   return (
@@ -14,6 +15,7 @@ const MainPage = () => {
       <Cover />
       <Benefits />
       <About />
+      {/* <Projects /> */}
     </div>
   )
 }

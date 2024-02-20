@@ -1,0 +1,31 @@
+.project-card {
+    width: 33%;
+    height: 180px;
+
+    /* background-color: aqua; */
+    border-radius: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.project-card-content {
+    flex: 2;
+}
+
+.project-card-img {
+    flex: 1;
+    flex-shrink: 0;
+    background-image: url('../../../assets/images/allrent.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.project-card-title h3 {
+    color: #2F281E;
+    font-size: 18px;
+    font-weight: 800;
+}

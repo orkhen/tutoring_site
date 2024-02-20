@@ -1,0 +1,18 @@
+.projects-container {
+    margin: 0 1rem 0 1rem;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.projects-title h3 {
+    color: #2F281E;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.projects-cards {
+    width: 100%;
+}
