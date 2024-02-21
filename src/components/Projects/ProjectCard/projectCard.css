@@ -1,10 +1,17 @@
 .project-card {
-    width: 33%;
+    width: 100%;
     height: 180px;
 
     /* background-color: aqua; */
     border-radius: 32px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px 0px rgba(0,0,0,0.2);
+
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 16px 2px rgba(0,0,0,0.2);
 }
 
 .project-card-content {
@@ -14,7 +21,6 @@
 .project-card-img {
     flex: 1;
     flex-shrink: 0;
-    background-image: url('../../../assets/images/allrent.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,8 +30,40 @@
     border-bottom-right-radius: 32px;
 }
 
+.project-card-title {
+    margin-left: 1.5rem;
+}
+
 .project-card-title h3 {
     color: #2F281E;
     font-size: 18px;
     font-weight: 800;
+}
+
+.project-card-info {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+.project-card-info p {
+    color: #2F281E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.project-card-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.5rem;
+}
+
+.project-card-more a {
+    text-decoration: none;
+    color: #2F281E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }

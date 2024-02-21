@@ -16,3 +16,19 @@
 .projects-cards {
     width: 100%;
 }
+
+.projects-cards .splide__list {
+    gap: 1rem;
+}
+
+.projects-cards .splide__slide {
+    height: 200px;
+}
+
+.projects-cards .splide__pagination {
+    bottom: 0 !important;
+}
+
+.projects-cards .splide__pagination .is-active {
+    background-color: #3A5AFF;
+}

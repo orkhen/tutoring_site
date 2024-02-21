@@ -1,0 +1,88 @@
+.student-card {
+    width: 50%;
+    gap: 4rem;
+}
+
+.student-card-img {
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    border-right: 2px solid white;
+}
+
+.student-card-img img {
+    width: 156px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 120px;
+    object-fit: cover;
+}
+
+.student-card-content {
+    gap: 1rem;
+    /* justify-content: center; */
+}
+
+.student-card-info {
+    gap: 0.25rem;
+}
+
+.student-card-name h4 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.student-card-uni h5 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.student-card-opinion p {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 992px) {
+    .student-card {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .student-card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .student-card {
+        flex-direction: column;
+        width: 60%;
+        gap: 1rem;
+    }
+
+    .student-card-img {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        padding-bottom: 2rem;
+        border-right: none;
+        border-bottom: 2px solid white;
+    }
+
+    .student-card-content {
+        gap: 0.5rem;
+    }
+}

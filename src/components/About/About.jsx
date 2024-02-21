@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 // Styles
 import './about.css';
 
 // Assets
-import AboutEducation from '../../assets/images/about-education.png';
 import EducationIcon from '../../assets/icons/AboutEducation.svg';
 import ExperienceIcon from '../../assets/icons/AboutExperience.svg';
 import ExtraIcon from '../../assets/icons/AboutExtra.svg';
@@ -41,7 +40,7 @@ const About = () => {
                     <h5>Təcrübə</h5>
 
                     <p className='mb-0'>
-                    Hələ də tələbə olduğuma baxmayaraq, bir neçə startup və şirkətlərdə tech sahəsində işləmiş, və sərbəst olaraq full-stack proyektlər üzərində çalışmışam!
+                      Hələ də tələbə olduğuma baxmayaraq, bir neçə startup və şirkətlərdə tech sahəsində işləmiş, və sərbəst olaraq full-stack proyektlər üzərində çalışmışam!
                     </p>
                 </div>
             </div>

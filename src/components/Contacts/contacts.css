@@ -1,0 +1,13 @@
+.contacts-container {
+    margin: 2rem 0rem 0 0rem;
+    padding-bottom: 4rem;
+}
+
+.contacts-title h3 {
+    color: var(--pms-black-7, #333);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
