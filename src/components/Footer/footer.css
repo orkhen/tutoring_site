@@ -1,0 +1,44 @@
+.footer {
+    background: var(--primary, #3A5AFF);
+}
+
+.footer-container {
+    margin: 2rem 4rem 0 4rem;
+    /* padding-bottom: 2rem; */
+}
+
+.footer-name h5 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-bottom p {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 992px) {
+    .footer-container {
+        margin: 2rem 2rem 0 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        margin: 2rem 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}

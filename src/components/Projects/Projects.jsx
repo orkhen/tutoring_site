@@ -36,7 +36,7 @@ const Projects = () => {
       return 3;
     } else if (windowWidth > 768) {
       return 2;
-    } else if (windowWidth > 576) {
+    } else {
       return 1;
     }
   };
