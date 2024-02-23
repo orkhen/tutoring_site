@@ -43,6 +43,10 @@
     border-radius: 19px;
     background: var(--red, #FF3B53);
 } */
+.benefits-info-box img {
+    width: 50px;
+    height: 50px;
+}
 
 .benefits-info-content h5 {
     color: #2F281E;

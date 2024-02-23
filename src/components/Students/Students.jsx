@@ -13,7 +13,7 @@ import StudentAykhan from '../../assets/images/aykhan.png';
 
 const Students = () => {
   return (
-    <div className='students d-flex'>
+    <div className='students d-flex' id='opinions'>
       <div className="students-container d-flex flex-column">
         <div className="students-title">
             <h3>Tələbələrin fikirləri</h3>

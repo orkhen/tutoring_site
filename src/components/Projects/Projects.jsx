@@ -42,7 +42,7 @@ const Projects = () => {
   };
 
   return (
-    <div className='projects'>
+    <div className='projects' id='experience'>
         <div className="projects-container d-flex flex-column align-items-center">
             <div className="projects-title">
                 <h3>Təcrübə və Proyektlər</h3>
@@ -65,7 +65,7 @@ const Projects = () => {
                   <ProjectCard 
                     company={'Allrent-də'} 
                     position={'Software Developer'} 
-                    info={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, sint!'}
+                    info={'Allrent-də bütün frontendi JavaScript, React js-lə sıfırdan yaradaraq, daha rahat UI/UX və daha sürətli performans əldə etmişəm.'}
                     img={AllrentCover}
                   />
                 </SplideSlide>
@@ -74,7 +74,7 @@ const Projects = () => {
                   <ProjectCard 
                     company={'ABA-da'} 
                     position={'Software Engineer'} 
-                    info={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, sint!'}
+                    info={'Müxtəlif növ data faylları avtomatik oxuyaraq uyğun API yaradan və həmin məlumatları müxtəlif növ qraflarla vizuallaşdıran full-stack proekt üzərində işləmişəm.'}
                     img={ABACover}
                   />
                 </SplideSlide>
@@ -83,7 +83,7 @@ const Projects = () => {
                   <ProjectCard 
                     company={'onPause'} 
                     position={'Software Developer'}
-                    info={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, sint!'}
+                    info={'Şəxsi proyektim olan fullstack mobil tətbiqi üçün JavaScript-in ən populyar frameworkları olan React-Native, Express js-dən istifadə edirəm.'}
                     img={MobileAppCover}
                   />
                 </SplideSlide>

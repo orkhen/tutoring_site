@@ -1,3 +1,7 @@
+.cover {
+    position: relative;
+}
+
 .cover-container {
     margin: 2rem 4rem 0 4rem;
 }
@@ -8,6 +12,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    margin-top: 2px;
 }
 
 .cover-logo {
@@ -74,6 +80,51 @@
     padding: 0.75rem 1.5rem;
 }
 
+.cover-slide {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Slide closed by default */
+    width: 300px; /* Adjust width according to your design */
+    height: 100%;
+    background-color: #fff; /* Adjust background color */
+    z-index: 1000; /* Ensure it overlays other content */
+    transition: right 0.3s ease-in-out;
+
+    box-shadow: 4px 8px 20px 4px rgba(0,0,0,0.4);
+}
+
+.slide-left {
+    right: 0; /* Slide open to the left */
+}
+
+.slide-right {
+    right: -300px; /* Slide closed to the right */
+}
+
+.cover-slide-container {
+    margin: 2rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover-slide-content nav {
+    margin-left: 1rem;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+.cover-slide-content nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #3A5AFF;
+    font-weight: 500;
+    transition: 0.3s ease color;
+}
+
+.cover-slide-content nav a:hover {
+    color: #2d3b83;
+}
+
 @media screen and (max-width: 1200px) {
     .cover-img img {
         width: 420px;
@@ -97,6 +148,15 @@
     .cover-info {
         margin: 0 0rem 0rem 0rem;
     }
+
+    /* .cover-slide {
+        right: -35%;
+        width: 35%;
+    }
+
+    .slide-right {
+        right: -35%;
+    } */
 
 }
 

@@ -10,7 +10,7 @@ import ExtraIcon from '../../assets/icons/AboutExtra.svg';
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className="about-container">
         <div className="about-title">
             <h3>Mənim haqqımda</h3>
