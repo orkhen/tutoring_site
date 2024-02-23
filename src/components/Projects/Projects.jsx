@@ -92,16 +92,16 @@ const Projects = () => {
                   <ProjectCard 
                     company={'Müxtəlif məqsədli Telegram botlar'} 
                     // position={'Software Engineer'} 
-                    info={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, sint!'}
+                    info={'Python ilə sadə film məsləhət edən, gündəlik xəbərləri göndərən botlardan tutmuş daha mürəkkəb əmlak saytlarını mütəmadi yoxlayan kimi botlar yaradıram.'}
                     img={TelegramBotCover}
                   />
                 </SplideSlide>
 
                 <SplideSlide>
                   <ProjectCard 
-                    company={'Desktop Calendar'} 
+                    company={'Desktop Kalendar'} 
                     // position={'Software Developer'} 
-                    info={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, sint!'}
+                    info={'Semestr proyekti kimi C# ilə Desktop üçün rahat və funksional Kalendar tətbiqi üzərində işləmişəm.'}
                     img={CalendarCover}
                   />
                 </SplideSlide>
@@ -110,7 +110,7 @@ const Projects = () => {
                   <ProjectCard 
                     company={'Python-la Ping Pong'} 
                     // position={'Software Developer'} 
-                    info={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, sint!'}
+                    info={'Python-un PyGame modulu ilə sadə və maraqlı Ping Pong oyunu ilə yanaşı istənilən növ video oyunlar yaradaraq dili daha dərindən öyrənin!'}
                     img={PyGameCover}
                   />
                 </SplideSlide>
@@ -119,7 +119,7 @@ const Projects = () => {
                   <ProjectCard 
                     company={'Hava proqnozu tətbiqi'} 
                     // position={'Software Developer'} 
-                    info={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, sint!'}
+                    info={'Fullstack web tətbiqi olan, backend Java Spring və frontend üçün React js, bu proyekt istifadəçilər üçün hazır zamanda müxtəlif yerlərdə hava proqnozları barədə məlumat verir. Hazırda iş altındadır.'}
                     img={WeatherAppCover}
                   />
                 </SplideSlide>
