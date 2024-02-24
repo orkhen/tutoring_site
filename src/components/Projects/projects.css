@@ -32,3 +32,9 @@
 .projects-cards .splide__pagination .is-active {
     background-color: #3A5AFF;
 }
+
+@media screen and (max-width: 576px) {
+    .projects-cards .splide__slide {
+        height: 260px;
+    }
+}

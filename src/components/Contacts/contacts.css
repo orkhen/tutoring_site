@@ -66,7 +66,7 @@
 .contacts-email textarea {
     border-radius: 12px;
     outline: none;
-    border: 1px solid #333;
+    border: 1px solid #D9D9D9;
     padding: 0.5rem 1rem;
 
     height: 220px;
@@ -95,7 +95,7 @@
 .contacts-email input {
     border-radius: 32px;
     outline: none;
-    border: 1px solid #333;
+    border: 1px solid #D9D9D9;
     padding: 0.5rem 1rem;
     width: 100%;
 }

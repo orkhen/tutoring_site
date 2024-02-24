@@ -74,7 +74,7 @@ const Projects = () => {
                   <ProjectCard 
                     company={'ABA-da'} 
                     position={'Software Engineer'} 
-                    info={'Müxtəlif növ data faylları avtomatik oxuyaraq uyğun API yaradan və həmin məlumatları müxtəlif növ qraflarla vizuallaşdıran full-stack proekt üzərində işləmişəm.'}
+                    info={'Fərqli növ data faylları avtomatik oxuyaraq uyğun API yaradaraq həmin dataları müxtəlif qrafiklərlə ifadə edən fullstack proyekt üzərində işləmişəm.'}
                     img={ABACover}
                   />
                 </SplideSlide>
@@ -92,7 +92,7 @@ const Projects = () => {
                   <ProjectCard 
                     company={'Müxtəlif məqsədli Telegram botlar'} 
                     // position={'Software Engineer'} 
-                    info={'Python ilə sadə film məsləhət edən, gündəlik xəbərləri göndərən botlardan tutmuş daha mürəkkəb əmlak saytlarını mütəmadi yoxlayan kimi botlar yaradıram.'}
+                    info={'Python ilə film məsləhəti, gündəlik xəbərləri göndərən, daha mürəkkəb əmlak saytlarını mütəmadi yoxlayan kimi botlar yaradıram.'}
                     img={TelegramBotCover}
                   />
                 </SplideSlide>
@@ -119,7 +119,7 @@ const Projects = () => {
                   <ProjectCard 
                     company={'Hava proqnozu tətbiqi'} 
                     // position={'Software Developer'} 
-                    info={'Fullstack web tətbiqi olan, backend Java Spring və frontend üçün React js, bu proyekt istifadəçilər üçün hazır zamanda müxtəlif yerlərdə hava proqnozları barədə məlumat verir. Hazırda iş altındadır.'}
+                    info={'Fullstack web tətbiqi, backend Java Spring və frontend üçün React js, hazır zamanda müxtəlif yerlərdə hava proqnozları barədə məlumat verir. Hazırda iş altındadır.'}
                     img={WeatherAppCover}
                   />
                 </SplideSlide>
