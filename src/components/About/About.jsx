@@ -12,12 +12,12 @@ const About = () => {
   return (
     <div className='about' id='about'>
       <div className="about-container">
-        <div className="about-title">
+        <div className="about-title" data-aos="fade-up">
             <h3>Mənim haqqımda</h3>
         </div>
 
         <div className="about-blocks d-flex flex-column align-items-center">
-            <div className="about-block d-flex align-items-center mt-5">
+            <div className="about-block d-flex align-items-center mt-5" data-aos="fade-left">
                 <div className="about-block-icon">
                   <img src={EducationIcon} />
                 </div>
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="about-block second-block d-flex align-items-center">
+            <div className="about-block second-block d-flex align-items-center" data-aos="fade-right">
                 <div className="about-block-icon">
                   <img src={ExperienceIcon} />
                 </div>
@@ -45,7 +45,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="about-block d-flex align-items-center">
+            <div className="about-block d-flex align-items-center" data-aos="fade-left">
                 {/* <div className="about-block-img">
                     <img src={AboutEducation} alt='about-education' />
                 </div> */}

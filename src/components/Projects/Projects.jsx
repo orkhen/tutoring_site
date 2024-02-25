@@ -44,11 +44,11 @@ const Projects = () => {
   return (
     <div className='projects' id='experience'>
         <div className="projects-container d-flex flex-column align-items-center">
-            <div className="projects-title">
+            <div className="projects-title" data-aos="fade-up">
                 <h3>Təcrübə və Proyektlər</h3>
             </div>
 
-            <div className="projects-cards mt-5">
+            <div className="projects-cards mt-5" data-aos="fade-up">
               <Splide
                 className='project-cards-slide'
                 options={{

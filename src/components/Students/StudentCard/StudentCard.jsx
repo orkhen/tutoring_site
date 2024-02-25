@@ -13,20 +13,16 @@ const StudentCard = ({name, uni, opinion, photo}) => {
       <div className="student-card-content d-flex flex-column">
         <div className="student-card-info d-flex flex-column">
             <div className="student-card-name">
-                <h4 className='mb-0'>Aykhan Mustafayev</h4>
+                <h4 className='mb-0'>{name}</h4>
             </div>
 
             <div className="student-card-uni">
-                <h5>KU Leuven tələbəsi</h5>
+                <h5>{uni}</h5>
             </div>
         </div>
 
         <div className="student-card-opinion">
-            <p>
-            Recusandae sunt voluptate repellat velit dolorem eos nostrum cupiditate. Labore porro cupiditate reiciendis enim neque. Modi eos autem expedita voluptatibus dignissimos repellat. 
-
-            Sit et aut minus quod vitae. Aut occaecati cupiditate neque dolore amet beatae quasi aliquam.
-            </p>
+            <p>{opinion}</p>
         </div>
 
       </div>

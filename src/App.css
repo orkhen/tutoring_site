@@ -5,6 +5,11 @@
     --pms-black-7: #333;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+  
+
 .app {
     margin: 0;
     padding: 0;

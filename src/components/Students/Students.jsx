@@ -15,11 +15,11 @@ const Students = () => {
   return (
     <div className='students d-flex' id='opinions'>
       <div className="students-container d-flex flex-column">
-        <div className="students-title">
+        <div className="students-title" data-aos="fade-up">
             <h3>Tələbələrin fikirləri</h3>
         </div>
 
-        <div className="students-opinions">
+        <div className="students-opinions" data-aos="fade-up">
             {/* <Splide
                 className='students-cards-slide'
                 options={{
@@ -38,10 +38,40 @@ const Students = () => {
             </Splide> */}
 
             <Carousel
-                // indicators={false}
+              // indicators={false}
+              // interval={0}
             >
-                <Carousel.Item className='d-flex justify-content-center'>
-                    <StudentCard photo={StudentAykhan} />
+                <Carousel.Item className=''>
+                  <div className="carousel-item-container d-flex justify-content-center">
+                    <StudentCard 
+                      photo={StudentAykhan} 
+                      name={'Aykhan Mustafayev'} 
+                      uni={'KU Leuven tələbəsi'} 
+                      opinion={'Asan, keyfiyyətli, və əla təlim. Orxan mənim üçün əvvəllər anlamaqda çətinlik çəkdiyim konseptləri çox gözəl izah etdi. Dərsləri çox rahat və dostcasına keçir, heç bir təzyiq yox idi. Hər dərsdən sonra keçdiyimiz mövzular üzrə mənə çox rahat və aydı materiallarla yanaşı praktiki ev tapşırıqları da verirdi.'} 
+                    />
+                  </div>
+                </Carousel.Item>
+
+                <Carousel.Item className=''>
+                  <div className="carousel-item-container d-flex justify-content-center">
+                    <StudentCard 
+                      photo={StudentAykhan} 
+                      name={'Amin Zeynalov'} 
+                      uni={'Mugla University tələbəsi'} 
+                      opinion={'Dərslər çox effektiv keçirdi, Orxan hər dərsdə mənim üçün xüsusilə ağır olan mövzuları daha rahat anlamağım üçün dəfələrlə o mövzular üzərində işləyir və yenidən onlara toxunurdu. Onun sayəsində yetərincə güclü proqramlaşdırma anlayışı və gözləntilərimi üstələyən nəticələr əldə etdim!'} 
+                    />
+                  </div>
+                </Carousel.Item>
+
+                <Carousel.Item className=''>
+                  <div className="carousel-item-container d-flex justify-content-center">
+                    <StudentCard 
+                      photo={StudentAykhan} 
+                      name={'Amin Bağırov'} 
+                      uni={'UNEC tələbəsi'} 
+                      opinion={'Dərslər əsasən interaktiv keçdiyindən dərslərimiz qat-qat effektiv keçirdi. Orxan çox ünsiyyətcil və peşəkar bir müəllimdir. Dərslər çox aydın və rahat təşkil olunub, hər dərsdən sonra lazımi bütün materiallar ilə təmin edirdi. Çox faydalı və maraqlı təcrübə idi!'} 
+                    />
+                  </div>
                 </Carousel.Item>
             </Carousel>
         </div>

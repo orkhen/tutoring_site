@@ -11,11 +11,11 @@ const Benefits = () => {
   return (
     <div className='benefits' id='benefits'>
       <div className="benefits-container d-flex flex-column justify-content-center">
-        <div className="benefits-title">
+        <div className="benefits-title" data-aos="fade-up">
             <h3>Programlaşdırma dərslərimizin üstünlükləri</h3>
         </div>
 
-        <div className="benefits-info d-flex gap-5">
+        <div className="benefits-info d-flex gap-5" data-aos="fade-up">
             <div className="benefits-info-box">
                 <div className="benefits-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none">
