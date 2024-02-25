@@ -87,7 +87,7 @@ const Benefits = () => {
                 <div className="benefits-info-content">
                     <h5>Daimi ünsiyyət</h5>
 
-                    <p>Tələbələrlə müxtəlif sual və ya problemlərin həlində kömək üçün daimi ünsiyyət </p>
+                    <p>Tələbələrlə müxtəlif sual və ya problemlərin həllində kömək üçün daimi ünsiyyət </p>
                 </div>
             </div>
         </div>

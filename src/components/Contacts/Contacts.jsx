@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 
 // Styles
 import './contacts.css';
@@ -18,19 +17,33 @@ const Contacts = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Check if any of the form fields are empty
-    if (!formData.email || !formData.subject || !formData.content) {
-      alert('Zəhmət olmasa bütün xanaları doldurun.');
-      return;
-    }
-    try {
-      await axios.post('/api/send-email', formData);
-      alert('Sorğunuz uğurla göndərildi!');
-    } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Sorğunu göndərməkdə xəta baş verdi. Bir az sonra yenidən yoxlayın.');
-    }
+
+    // Your form data here
+    const emailData = {
+        to: 'orkhan1aliyev@gmail.com',
+        from: 'orxanaliyev541@gmail.com',
+        subject: formData.subject,
+        text: `Sender: ${formData.email}\n Message: ${formData.content}`,
+    };
+
+    fetch('/api/send-email', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(emailData),
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        alert("Email sent successfully");
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        alert("There was an error sending the email, please try again later.");
+    });
   };
+
 
   return (
     <div className='contacts' id='contacts'>
