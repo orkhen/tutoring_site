@@ -18,7 +18,10 @@ const Contacts = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Your form data here
+    if (formData.email === '' || formData.subject === '' || formData.content === '') {
+      alert("Zəhmət olmasa bütün xanaları doldurun.")
+    }
+
     const emailData = {
         to: 'orkhan1aliyev@gmail.com',
         from: 'orxanaliyev541@gmail.com',
@@ -36,11 +39,11 @@ const Contacts = () => {
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        alert("Email sent successfully");
+        alert("Sorğunuz uğurla göndərildi.");
     })
     .catch((error) => {
         console.error('Error:', error);
-        alert("There was an error sending the email, please try again later.");
+        alert("Sorğunuzu göndərərkən xəta baş verdi. Bir az sonra dənəyin.");
     });
   };
 
