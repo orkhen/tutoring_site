@@ -41,7 +41,7 @@ const Students = () => {
 
             <Carousel
               // indicators={false}
-              // interval={0}
+              interval={3500}
             >
                 <Carousel.Item className=''>
                   <div className="carousel-item-container d-flex justify-content-center">
@@ -49,7 +49,7 @@ const Students = () => {
                       photo={StudentAykhan} 
                       name={'Aykhan Mustafayev'} 
                       uni={'KU Leuven tələbəsi'} 
-                      opinion={'Asan, keyfiyyətli, və əla təlim. Orxan mənim üçün əvvəllər anlamaqda çətinlik çəkdiyim konseptləri çox gözəl izah etdi. Dərsləri çox rahat və dostcasına keçir, heç bir təzyiq yox idi. Hər dərsdən sonra keçdiyimiz mövzular üzrə mənə çox rahat və aydı materiallarla yanaşı praktiki ev tapşırıqları da verirdi.'} 
+                      opinion={'Asan, keyfiyyətli, və əla təlim. Orxan müəllim mənim üçün əvvəllər anlamaqda çətinlik çəkdiyim konseptləri çox gözəl izah etdi. Dərsləri çox rahat və dostcasına keçir, heç bir təzyiq yox idi. Hər dərsdən sonra keçdiyimiz mövzular üzrə mənə çox rahat və aydın materiallarla yanaşı praktiki ev tapşırıqları da verirdi.'} 
                     />
                   </div>
                 </Carousel.Item>
@@ -60,7 +60,7 @@ const Students = () => {
                       photo={StudentAminZ} 
                       name={'Amin Zeynalov'} 
                       uni={'Mugla University tələbəsi'} 
-                      opinion={'Dərslər çox effektiv keçirdi, Orxan hər dərsdə mənim üçün xüsusilə ağır olan mövzuları daha rahat anlamağım üçün dəfələrlə o mövzular üzərində işləyir və yenidən onlara toxunurdu. Onun sayəsində yetərincə güclü proqramlaşdırma anlayışı və gözləntilərimi üstələyən nəticələr əldə etdim!'} 
+                      opinion={'Dərslər çox effektiv keçirilirdi, Orxan müəllim hər dərsdə mənim üçün xüsusilə ağır olan mövzuları daha rahat anlamağım üçün dəfələrlə o mövzular üzərində işləyir və yenidən onlara toxunurdu. Onun sayəsində yetərincə güclü proqramlaşdırma anlayışı və gözləntilərimi üstələyən nəticələr əldə etdim!'} 
                     />
                   </div>
                 </Carousel.Item>
@@ -71,7 +71,7 @@ const Students = () => {
                       photo={StudentAminB} 
                       name={'Amin Bağırov'} 
                       uni={'UNEC tələbəsi'} 
-                      opinion={'Dərslər əsasən interaktiv keçdiyindən dərslərimiz qat-qat effektiv keçirdi. Orxan çox ünsiyyətcil və peşəkar bir müəllimdir. Dərslər çox aydın və rahat təşkil olunub, hər dərsdən sonra lazımi bütün materiallar ilə təmin edirdi. Çox faydalı və maraqlı təcrübə idi!'} 
+                      opinion={'Dərslər əsasən interaktiv keçirildiyindən qat-qat effektiv olurdu. O, çox ünsiyyətcil və peşəkar bir müəllimdir. Dərslər çox aydın və rahat təşkil olunub, hər dərsdən sonra lazımi bütün materiallar ilə təmin edirdi. Çox faydalı və maraqlı təcrübə idi!'} 
                     />
                   </div>
                 </Carousel.Item>
