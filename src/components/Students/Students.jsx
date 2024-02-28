@@ -10,6 +10,8 @@ import Carousel from 'react-bootstrap/Carousel';
 
 // Assets
 import StudentAykhan from '../../assets/images/aykhan.png';
+import StudentAminZ from '../../assets/images/studentAminZ.jpg';
+import StudentAminB from '../../assets/images/studentAminB.jpg';
 
 const Students = () => {
   return (
@@ -55,7 +57,7 @@ const Students = () => {
                 <Carousel.Item className=''>
                   <div className="carousel-item-container d-flex justify-content-center">
                     <StudentCard 
-                      photo={StudentAykhan} 
+                      photo={StudentAminZ} 
                       name={'Amin Zeynalov'} 
                       uni={'Mugla University tələbəsi'} 
                       opinion={'Dərslər çox effektiv keçirdi, Orxan hər dərsdə mənim üçün xüsusilə ağır olan mövzuları daha rahat anlamağım üçün dəfələrlə o mövzular üzərində işləyir və yenidən onlara toxunurdu. Onun sayəsində yetərincə güclü proqramlaşdırma anlayışı və gözləntilərimi üstələyən nəticələr əldə etdim!'} 
@@ -66,7 +68,7 @@ const Students = () => {
                 <Carousel.Item className=''>
                   <div className="carousel-item-container d-flex justify-content-center">
                     <StudentCard 
-                      photo={StudentAykhan} 
+                      photo={StudentAminB} 
                       name={'Amin Bağırov'} 
                       uni={'UNEC tələbəsi'} 
                       opinion={'Dərslər əsasən interaktiv keçdiyindən dərslərimiz qat-qat effektiv keçirdi. Orxan çox ünsiyyətcil və peşəkar bir müəllimdir. Dərslər çox aydın və rahat təşkil olunub, hər dərsdən sonra lazımi bütün materiallar ilə təmin edirdi. Çox faydalı və maraqlı təcrübə idi!'} 
