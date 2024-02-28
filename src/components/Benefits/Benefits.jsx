@@ -15,8 +15,8 @@ const Benefits = () => {
             <h3>Programlaşdırma dərslərimizin üstünlükləri</h3>
         </div>
 
-        <div className="benefits-info d-flex gap-5" data-aos="fade-up">
-            <div className="benefits-info-box">
+        <div className="benefits-info d-flex gap-5">
+            <div className="benefits-info-box" data-aos="fade-up">
                 <div className="benefits-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none">
                         <rect width="50" height="50" rx="19" fill="#3A5AFF"/>
@@ -31,7 +31,7 @@ const Benefits = () => {
                 </div>
             </div>
 
-            <div className="benefits-info-box">
+            <div className="benefits-info-box" data-aos="fade-up">
                 <div className="benefits-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                         <g clip-path="url(#clip0_0_549)">
@@ -54,7 +54,7 @@ const Benefits = () => {
                 </div>
             </div>
 
-            <div className="benefits-info-box">
+            <div className="benefits-info-box" data-aos="fade-up">
                 <div className="benefits-icon third-icon">
                     <img src={BenefitSofa} />
                     {/* <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
@@ -69,7 +69,7 @@ const Benefits = () => {
                 </div>
             </div>
 
-            <div className="benefits-info-box">
+            <div className="benefits-info-box" data-aos="fade-up">
                 <div className="benefits-icon fourth-icon">
                     {/* <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                         <g clip-path="url(#clip0_163_66)">
